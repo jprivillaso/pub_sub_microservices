@@ -1,4 +1,4 @@
-# Pub Sub Microservices with nodejs
+# Pub-Sub Microservices with nodejs
 
 A very common approach when using microservices is to use a event-based architecture to enable your application to scale better.
 
@@ -8,12 +8,12 @@ In this repository, I include some resources to show how easy is to jump from a 
 
 In the basic example, there are two files:
 
-- send.js
-- receive.js
+- publish.js
+- subscribe.js
 
 These examples were taken from the official documentation of RabbitMQ.
 
-The `send.js` file will act as a producer and the `receive.js` file will act as a consumer.
+The `publish.js` file will act as a producer and the `subscribe.js` file will act as a consumer.
 
 [Click here](./basic_example) to see more details.
 
