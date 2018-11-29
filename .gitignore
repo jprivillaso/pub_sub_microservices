@@ -1,0 +1,5 @@
+**/npm-debug.log
+**/.DS_Store
+**/node_modules
+basic_examples/node_modules
+services/node_modules
