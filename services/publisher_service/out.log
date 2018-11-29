@@ -1,0 +1,27 @@
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/juanrivillas/workspace/personal/node_microservices/services/publisher_service/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/juanrivillas/workspace/personal/node_microservices/services/publisher_service/build/publisher.js:6:83179)
+    at r (/Users/juanrivillas/workspace/personal/node_microservices/services/publisher_service/build/publisher.js:1:172)
+    at /Users/juanrivillas/workspace/personal/node_microservices/services/publisher_service/build/publisher.js:1:513
+    at Object.<anonymous> (/Users/juanrivillas/workspace/personal/node_microservices/services/publisher_service/build/publisher.js:1:523)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1313:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
